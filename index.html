@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Justin Barreto - Front-End Developer</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Portfolio</a></li>
+                        <li class="nav__item"><a href="#footer" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Justin Barreto<br><span class="home__title-color">Front-End Developer</span></h1>
+                </div>
+
+                <div class="home__portfolio-link">
+                    <a href="#work" class="button">View my recent work<br></bnr><i class="fas fa-angle-down"></i></a>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div>
+                        <p class="about__text">
+                            Over the past few years, I've worked at different start-ups, starting in customer support and moving into an operations focused role. I had the opportunity to work closely with engineering teams where I helped define product issues and tested and collected user feedback. I became very curious in how the engineering teams would come up solutions and this ultimately inspired me to learn how to code.
+                            <br>
+                            <br>
+                            In 2018 I enrolled in an online apprenticeship with Bloc.io and balanced my learning with working full-time. After about 1 year, I still wanted to improve my learning and took additional online courses such as - <u>The Complete JavaScript Course 2020: Build Real Projects!</u>, <u>Modern React with Redux, React Front to Back.</u> 
+                            <br>
+                            <br>
+                            I'm excited to use my knowledge in <span class="about__highlight">HTML, CSS, JavaScript, React and Redux</span> to build, solve problems and create experiences through code. 
+                            <br>
+                            <br>
+                            
+                        </p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
+
+                <div class="work__container bd-grid">
+                    <!-- Item 1 -->
+                        <div class="work__img">
+                            <img src="img/music.png" alt="">
+                        </div>
+                        <div class="work__description">
+                            <h4>Music Player</h4>
+                            <p>
+                                One of the main projects created from the Block curriculum. The application was made with Vanilla Javascript and JQuery. The music player will allow users to play, pause, view playback progress and adjust volume. 
+                            </p>
+                            <button class="work__view-btn">View Code</button>
+                            <button class="work__demo-btn">Demo</button>
+                        </div>
+
+                        
+                    
+                    <!-- Item 2 -->
+                        <div class="work__img">
+                            <img src="img/todo.png" alt="">
+                        </div>
+                        <div class="work__description">
+                            <h4>To Do App</h4>
+                            <p>
+                                My first project created created with React. Here I use the super(props) to initialize my state. The application allows the user to add and delete a task. I included an additional feature within this app, by allowing the user to also edit a task that was already created.  
+                            </p>
+                            <button class="work__view-btn">View Code</button>
+                            <button class="work__demo-btn">Demo</button>
+                        </div>
+                  
+                    <!-- Item 3 -->
+                        <div class="work__img">
+                            <img src="img/weather.png" alt="">
+                        </div>
+                        <div class="work__description">
+                            <h4>Weather App</h4>
+                            <p>
+                                Made with React to demonstrate the use of the useState() hook and ability to fetch data from an API. I utilized the OpenWeather API for my weather information and decided to display the following weather information after a user enters in a city name: current temperature, condition, and the temerature high and low. The app displays an icon that changes based on the weather condition. In order to display the appropriate icon, I impletented a switch statement in my Icon component.
+                            </p>
+                            <button class="work__view-btn">View Code</button>
+                            <button class="work__demo-btn">Demo</button>
+                        </div>
+
+                    <!-- Item 4 -->
+                        <div class="work__img">
+                            <img src="img/expense.png" alt="">
+                        </div>
+                        <div class="work__description">
+                            <h4>Expense Tracker</h4>
+                            <p> 
+                                This React project tracks a users income and expense transactions and displays a transaction history. I utilized  - useState, useContext and useReducer and the context API to manage state. 
+                            </p>
+                            <button class="work__view-btn">View Code</button>
+                            <button class="work__demo-btn">Demo</button>
+                        </div>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer" id="footer">
+            <p class="footer__title">barreto5288@gmail.com</p>
+            <div class="footer__social">
+                <a href="" class="footer__icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="" class="footer__icon"><i class='bx bxl-github' ></i></a>
+            </div>
+    
+            <!-- <div class="home__social">
+                <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a>
+                <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+            </div> -->
+        </footer>
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="js/main.js"></script>
+    </body>
+</html>
