@@ -268,7 +268,7 @@ img{
 }
 
 .about__text .about__highlight {
-  background-color: var(--first-color);
+  color: var(--first-color);
   padding: 2px;
   font-weight: bold;
 }
